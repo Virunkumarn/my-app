@@ -48,7 +48,9 @@ const Test = () => {
   }, [stateInput, dropdownSelect])
 
   return (
+
     <div style={{ height: '100%', display: 'flex', flexDirection: 'row' }}>
+
       <div style={{ height: '100%', width: '200px', borderRight: '5px solid red' }}>
         <input type="number" value={stateInput} onChange={(event) => { setStateInput(event.target.value < 0 ? 1 : event.target.value) }} />
       </div>
