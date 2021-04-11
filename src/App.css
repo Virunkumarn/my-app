@@ -7,6 +7,12 @@
   pointer-events: none;
 }
 
+@media screen and (max-width : 600px) {
+  body {
+    width: max-content;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -14,10 +20,12 @@
 }
 body, html {
   height: 100%;
+  
 }
 #root{
   height: 100%;
 }
+
 
 .App-header {
   padding: 15px;
